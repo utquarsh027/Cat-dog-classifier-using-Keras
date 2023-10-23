@@ -18,7 +18,7 @@ if uploaded_image is not None:
 
     # Convert the image to a NumPy array and resize it
     image = np.array(image)
-      image = tf.image.resize(image, (256,256))
+    image = tf.image.resize(image, (256,256))
 
     # Normalize the image pixel values
     image = image / 255.0
