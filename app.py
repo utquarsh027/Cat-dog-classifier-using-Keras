@@ -31,6 +31,6 @@ if uploaded_image is not None:
 
      # Interpret the prediction
     if prediction[0][0] >= 0.7:
-        st.write("Prediction: Dog")
+        st.title("Prediction: Dog")
     elif prediction[0][0] <= 0.6:
-        st.write("Prediction: Cat")
+        st.title("Prediction: Cat")
